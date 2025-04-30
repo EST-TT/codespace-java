@@ -1,0 +1,18 @@
+{
+  "transformationIdentifier" : "1743461718517",
+  "transformationName" : "test",
+  "list" : [ {
+    "selection_cols" : [ ],
+    "key_cols" : [ ],
+    "table" : "tc05_align_ds_1595505633816.parquet",
+    "type" : "Inner Join",
+    "label" : 1
+  }, {
+    "selection_cols" : [ "movement_type", "cedant_polnum", "arrears_indicator", "product_version", "movement_date", "area_code", "fac_ind", "product", "internal_cover_no", "cover_layer", "income_ind", "renewable_option", "buyback_option", "indexation_option", "indexation_fixed_pct", "index_claim_option", "index_claim_fixed_pct", "decrease_pct", "decrease_freq", "gio_uptake", "reinstate_uptake", "jl_type", "client_id", "surname", "first_name", "sex", "smoker_stat", "dob", "entry_date", "expiry_date", "term", "currency", "basic_ap", "loading_ap", "reins_basic_ap", "reins_loading_ap", "monthly_prem_basic", "mon_prem_extra", "reins_monthly_prem_basic", "reins_mon_prem_extra", "treaty_layer_1", "treaty_layer_2", "treaty_layer_3", "treaty_layer_4", "treaty_layer_5", "nil_premium_period", "tpd", "tpd_decline", "pct_loading", "permil_loading", "loading_doc", "loading_doe", "dur", "post_code", "commision_indicator", "treaty_year", "reinsurance_rating", "ben1_sa_cedantcur", "ben1_sumass_initial", "product_no", "ben1_sumass_current", "ben1_sa_cedntini", "benstartdate", "quote_date", "benterm", "valnversion", "client_id1", "client_id2" ],
+    "key_cols" : [ "`cedant_polnum`=TC05_ALIGN_DS_1595505633816.`cedant_polnum`" ],
+    "table" : "tc07_benterm_1585132206438.parquet",
+    "type" : "Inner Join",
+    "label" : 0
+  } ],
+  "node_id" : "30"
+}

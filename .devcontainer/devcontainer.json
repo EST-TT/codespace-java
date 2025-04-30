@@ -7,13 +7,13 @@
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
+			"version": "11",
 			"installMaven": "true",
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers-extra/features/spark-sdkman:2": {
 			"version": "latest",
-			"jdkVersion": "latest",
+			"jdkVersion": "11",
 			"jdkDistro": "ms"
 		}
 	},
@@ -22,9 +22,10 @@
 			"extensions": [
 				"vmware.vscode-boot-dev-pack",
 				"redhat.java",
-                "vscjava.vscode-spring-initializr",
-                "vscjava.vscode-spring-boot-dashboard",
-                "vscjava.vscode-java-pack"
+				"vscjava.vscode-spring-initializr",
+				"vscjava.vscode-spring-boot-dashboard",
+				"vscjava.vscode-java-pack",
+				"mechatroner.rainbow-csv"
 			]
 		}
 	},
